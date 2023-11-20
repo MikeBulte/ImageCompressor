@@ -1,6 +1,6 @@
 # ImageCompressor
- Small Batch Image Compressor, mostly meant to compress uncompressed files where it makes sense to do so.
- This program will not save images if the compressed version becomes larger than the original version, which is a common issue when compressing already compressed files.
+ Small Batch Image Compressor made for personal use, mostly meant to compress uncompressed files where it makes sense to do so.
+ This Script will not save images if the compressed version becomes larger in size than the original version, which is a common issue when compressing already compressed files.
 
  This Python Script uses PILLOW to compress images through the usage of different flags.
 
@@ -31,7 +31,7 @@
   * ### -CompressionMethod 
     > Choose what Compression Method will be used on images. Defaults to LANCZOS.  
     Valid options are: LANCZOS, NEAREST, BOX, BILINEAR, HAMMING and BICUBIC.  
-    This flag is experimental and most likely will produce bugs!
+    This flag is experimental and most likely will produce some bugs or unwanted results!
 
  ## Instructions
   You can use this Script with the following steps:
