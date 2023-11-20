@@ -160,7 +160,7 @@ if __name__ == '__main__':
     try:
         os.mkdir(img_output_loc)
     except OSError:
-        print(f"Creation of the directory {img_output_loc} failed, this folder might already exist!")
+        print(f"The {img_output_loc} folder already exists. Skipping creation")
     else:
         print(f"Successfully created the directory {img_output_loc}")
 
