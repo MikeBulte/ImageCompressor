@@ -94,7 +94,9 @@ if __name__ == '__main__':
     if args.MaxSize is not None:
         clamp(args.MaxSize, 1, 2_000_000)
 
-    if args.SmallImgSize is None:
+    if args.SmallImgSize is not None:
+        clamp(args.SmallImageSize, 1, 2_000_000)
+    else:
         SmallImgSize = 512
 
     if args.ImgQuality is not None:
